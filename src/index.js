@@ -5,7 +5,8 @@ import { HashRouter } from 'react-router-dom'
 import { Provider } from 'react-redux';
 import store from './stores'
 import 'normalize.css';
-import './index.less';
+import './style/base.less';
+import './config/rem'
 
 ReactDOM.render(
   <Provider store={store}>
