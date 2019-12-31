@@ -1,4 +1,5 @@
 import React from 'react'
+import './load.less'
 class LoadFail extends React.Component {
   constructor(props) {
     super(props);
