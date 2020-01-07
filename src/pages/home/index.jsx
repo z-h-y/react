@@ -7,8 +7,8 @@ class Home extends React.Component {
       this.props.history.goBack()
     }
     render() {
-        return <div>
-            <Header title="我的" goBack={this.goBack}/>
+        return <div className="wrapper">
+            <Header title="home"/>
             <h1>Home</h1>
             <Footer />
         </div>
